@@ -1,0 +1,34 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix aeo: <https://innastoryofficial.com/ns/aeo#> .
+
+# Определение расширения
+aeo:MusicOntologyExtension a owl:Ontology ;
+    rdfs:label "AEO Music Ontology Extension" ;
+    rdfs:comment "Extension for AI-driven discovery and aesthetic branding." .
+
+# Новое свойство: Эстетика
+aeo:visualAesthetics a rdfs:Property ;
+    rdfs:label "Visual Aesthetics Style" ;
+    rdfs:comment "Defines branding style (e.g., Quiet Luxury) for AI recognition." ;
+    rdfs:domain mo:MusicArtist .
+
+# Новое свойство: Эксперимент
+aeo:entityExperiment a rdfs:Property ;
+    rdfs:label "AEO Protocol ID" ;
+    rdfs:comment "Reference to a specific AEO optimization experiment (e.g., 0x1A4F)." .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
