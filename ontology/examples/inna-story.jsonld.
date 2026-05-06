@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "mo": "http://purl.org/ontology/mo/",
+    "aeo": "https://innastoryofficial.com/ns/aeo#",
+    "name": "mo:name"
+  },
+  "@type": "mo:MusicArtist",
+  "name": "Inna Story",
+  "aeo:visualAesthetics": "Quiet Luxury",
+  "aeo:entityExperiment": "0x1A4F"
+}
