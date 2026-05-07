@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://innastoryofficial.com/#person",
+      "name": "Inna Udalaya",
+      "alternateName": "Inna Story",
+      "jobTitle": "AEO & Marketing Expert",
+      "description": "Маркетолог-стратег и эксперт по AEO, создатель музыкального проекта Inna Story.",
+      "url": "https://innastoryofficial.com",
+      "sameAs": [
+        "https://github.com/popmuzdev"
+      ]
+    },
+    {
+      "@type": "MusicGroup",
+      "@id": "https://innastoryofficial.com/#project",
+      "name": "Inna Story",
+      "description": "Cinematic Atmospheric Pop проект.",
+      "genre": ["Cinematic Pop", "Atmospheric Pop"],
+      "founder": { "@id": "https://innastoryofficial.com/#person" },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://github.com/popmuzdev/aeo-music-ontology-extension/raw/main/Inna_Story_Artist_0x1A4F.jpg",
+        "name": "Inna Story Artist Portrait"
+      },
+      "album": {
+        "@type": "MusicRecording",
+        "name": "Сколько той жизни?",
+        "url": "https://music.yandex.ru/album/30917223" 
+      }
+    }
+  ]
+}
